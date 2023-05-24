@@ -5,25 +5,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel=" icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <script defer src="https://unpkg.com/@popperjs/core@2"></script>
-  <script defer src="https://unpkg.com/tippy.js@6"></script>
+  <!-- <script defer src="https://unpkg.com/@popperjs/core@2"></script>
+  <script defer src="https://unpkg.com/tippy.js@6"></script> -->
   <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <!-- Yandex.Metrika counter -->
+  <script defer type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      var z = null; m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(90233746, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/90233746" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
   <script defer src="js/script.js"></script>
-  <title>Order Of Pale Moon - Орден Бледной Луны</title>
+  <title>Орден Бледной Луны</title>
+  <meta name="description" content="" />
 </head>
 
 <body class="body">
 
   <header class="header">
     <div class="header-container container">
-      <a href="#" class="header__logo">
-        <img src="img/main-logo-edit.png" alt="Логотип Орден Бледной Луны">
-      </a>
+      <button class="header__logo btn-reset">
+        <img src="img/main-logo-edit2.png" alt="Логотип Орден Бледной Луны">
+      </button>
       <h1 class="header__title">ОРДЕН БЛЕДНОЙ ЛУНЫ</h1>
+      <p class="display-none">...</p>
       <img class="header__img-title" src="img/orden_title.png" alt="Орден Бледной Луны">
     </div>
   </header>
@@ -39,9 +62,12 @@
             <div>
               <img class="albums__img albums__img_obl1" src="img/obl1.jpg" alt="Under Pale Moon - S\T, Dec 2020">
               <div class="albums__buttons">
-                <a href="#" class="albums__download rus" download="">Скачать альбом</a>
-                <a href="#" class="albums__download eng display-none" download="">Download album</a>
-                <button class="merch-btn btn-reset">Merch</button>
+                <a href="download/Under Pale Moon - Under Pale Moon.zip" class="albums__download rus"
+                  download="">Скачать альбом</a>
+                <a href="download/Under Pale Moon - Under Pale Moon.zip" class="albums__download eng display-none"
+                  download="">Download album</a>
+                <button class="merch-btn btn-reset rus">Кассеты</button>
+                <button class="merch-btn btn-reset eng display-none">Cassettes</button>
               </div>
             </div>
             <div class="albums__player">
@@ -77,9 +103,11 @@
             <div>
               <img class="albums__img albums__img_obl1" src="img/obl2.jpg" alt="Шип Сна - Шип сна, Jul 2021">
               <div class="albums__buttons">
-                <a href="#" class="albums__download rus" download="">Скачать альбом</a>
-                <a href="#" class="albums__download eng display-none" download="">Download album</a>
-                <button class="merch-btn btn-reset">Merch</button>
+                <a href="download/Шип Сна - Шип Сна.zip" class="albums__download rus" download="">Скачать альбом</a>
+                <a href="download/Шип Сна - Шип Сна.zip" class="albums__download eng display-none" download="">Download
+                  album</a>
+                <button class="merch-btn btn-reset rus">Кассеты</button>
+                <button class="merch-btn btn-reset eng display-none">Cassettes</button>
               </div>
             </div>
             <div class="albums__player">
@@ -117,9 +145,12 @@
               <img class="albums__img albums__img_obl1" src="img/obl3.jpg"
                 alt="Шип Сна - Ливни Темного Безумья, Февраль 2022">
               <div class="albums__buttons">
-                <a href="#" class="albums__download rus" download="">Скачать альбом</a>
-                <a href="#" class="albums__download eng display-none" download="">Download album</a>
-                <button class="merch-btn btn-reset">Merch</button>
+                <a href="download/Шип Сна - Ливни Темного Безумья.zip" class="albums__download rus" download="">Скачать
+                  альбом</a>
+                <a href="download/Шип Сна - Ливни Темного Безумья.zip" class="albums__download eng display-none"
+                  download="">Download album</a>
+                <button class="merch-btn btn-reset rus">Кассеты</button>
+                <button class="merch-btn btn-reset eng display-none">Cassettes</button>
               </div>
             </div>
             <div class="albums__player">
@@ -156,9 +187,12 @@
             <div>
               <img class="albums__img albums__img_obl1" src="img/obl4.jpg" alt="Под Бледной Луной - Сихирць">
               <div class="albums__buttons">
-                <a href="#" class="albums__download rus" download="">Скачать альбом</a>
-                <a href="#" class="albums__download eng display-none" download="">Download album</a>
-                <button class="merch-btn btn-reset">Merch</button>
+                <a href="download/Под Бледной Луной - Сихирць.zip" class="albums__download rus" download="">Скачать
+                  альбом</a>
+                <a href="download/Под Бледной Луной - Сихирць.zip" class="albums__download eng display-none"
+                  download="">Download album</a>
+                <button class="merch-btn btn-reset rus">Кассеты</button>
+                <button class="merch-btn btn-reset eng display-none">Cassettes</button>
               </div>
             </div>
             <div class="albums__player">
@@ -186,7 +220,7 @@
             </div>
           </div>
         </div>
-        <h3 class="albums__title">Old Took -About Dungeons, Poetry And Thunderstorms Over The Bay,
+        <h3 class="albums__title">Old Took - About Dungeons, Poetry And Thunderstorms Over The Bay,
           <span class="rus">Июнь</span>
           <span class="eng display-none">June</span> 2022
         </h3>
@@ -196,8 +230,10 @@
               <img class="albums__img albums__img_obl1" src="img/obl5.jpg"
                 alt="Old Took -About Dungeons, Poetry And Thunderstorms Over The Bay">
               <div class="albums__buttons">
-                <a href="#" class="albums__download rus" download="">Скачать альбом</a>
-                <a href="#" class="albums__download eng display-none" download="">Download album</a>
+                <a href="download/Old Took - About Dungeons- Poetry And Thunderstorms Over The Bay.zip"
+                  class="albums__download rus" download="">Скачать альбом</a>
+                <a href="download/Old Took - About Dungeons- Poetry And Thunderstorms Over The Bay.zip"
+                  class="albums__download eng display-none" download="">Download album</a>
               </div>
             </div>
             <div class="albums__player">
@@ -235,6 +271,99 @@
             </div>
           </div>
         </div>
+        <h3 class="albums__title">Кровь Мифа - Таинство Птичьих Полётов,
+          <span class="rus">Август</span>
+          <span class="eng display-none">August</span> 2022
+        </h3>
+        <div class="albums__box">
+          <div class="albums__content">
+            <div>
+              <img class="albums__img albums__img_obl1" src="img/obl6.jpg" alt="Кровь Мифа - Таинство Птичьих Полётов">
+              <div class="albums__buttons">
+                <a href="download/Кровь Мифа - Таинство Птичьих Полётов.rar" class="albums__download rus"
+                  download="">Скачать альбом</a>
+                <a href="download/Кровь Мифа - Таинство Птичьих Полётов.rar" class="albums__download eng display-none"
+                  download="">Download album</a>
+              </div>
+            </div>
+            <div class="albums__player">
+              <p class="albums__descr rus">
+                Записано на кассетную портастудию с использованием колесной лиры, бубна и самодельного горна
+                <br />Издано 2 сентября, 2022
+              </p>
+              <p class="albums__descr eng display-none">
+                Recorded on a cassette portastudio using a hurdy gurdy, a tambourine and a homemade bugle.
+                <br />released September, 2022
+              </p>
+              <ul class="albums__list list-reset">
+                <li class="albums__item">
+                  <span class="albums__track">Таинство Птичьих Полётов</span> 12:44
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <h3 class="albums__title">Das letzte gold verfallener sterne -
+          <span class="rus">заброшенный тоннель зеленого мыса</span>
+          <span class="eng display-none">abandoned green cape tunnel</span>
+        </h3>
+        <div class="albums__box">
+          <div class="albums__content albums__content_video">
+            <iframe class="video_tunnel" width="100%" height="315" src="https://www.youtube.com/embed/Ekiiv9KqMHU?rel=0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+            <p class="albums__descr rus">
+              небольшой концерт для летучих мышей и пещерных грибов
+            </p>
+            <p class="albums__descr eng display-none">
+              little concert for bats and cave mushrooms
+            </p>
+          </div>
+        </div>
+        <h3 class="albums__title">Под бледной луной - Сны бобыля, <span class="rus">Май</span><span
+            class="eng display-none">May</span> 2023</h3>
+        <div class="albums__box">
+          <div class="albums__content">
+            <div>
+              <img class="albums__img albums__img_obl1" src="img/obl7.jpg"
+                alt="Под бледной луной - Сны бобыля, Май 2023">
+              <div class="albums__buttons">
+                <a href="download/Под Бледной Луной - Сны Бобыля.rar" class="albums__download rus" download="">Скачать
+                  альбом</a>
+                <a href="download/Под Бледной Луной - Сны Бобыля.rar" class="albums__download eng display-none"
+                  download="">Download album</a>
+
+              </div>
+            </div>
+            <div class="albums__player">
+              <p class="albums__descr rus">
+                Сборник набросков сделанных в разные периоды жизни. Художественное оформление и печать сделаны
+                издательством «Подклет» г. Червоград.<br><br>
+                Под Бледной Луной - Сны Бобыля, Май 2023<br><br>
+                Изданно в мае 2023<br><br>
+                Audio cassettes available here: <a target="_blank" class="albums__link-inst" href="https://www.instagram.com/p/Cr_PoflNHIl/">https://www.instagram.com/p/Cr_PoflNHIl/</a>
+              </p>
+              <p class="albums__descr eng display-none">
+                Collection of sketches made in different periods of life.
+                Designed and printed by Podklet from Chervograd.<br><br>
+                released May 2023<br><br>
+                Audio cassettes available here: <a target="_blank" class="albums__link-inst" href="https://www.instagram.com/p/Cr_PoflNHIl/">https://www.instagram.com/p/Cr_PoflNHIl/</a>
+              </p>
+              <ul class="albums__list list-reset">
+                <li class="albums__item"><span class="albums__track">Театральный шум</span> 01:50</li>
+                <li class="albums__item"><span class="albums__track">За рекой</span> 02:42</li>
+                <li class="albums__item"><span class="albums__track">Сияющие горы</span> 05:51</li>
+                <li class="albums__item"><span class="albums__track">Языцы</span> 06:30</li>
+                <li class="albums__item"><span class="albums__track">Да воссияют звезды над нашей встречей</span> 03:55</li>
+                <li class="albums__item"><span class="albums__track">Осенний сон (А. Джойс)</span> 06:52</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -243,12 +372,31 @@
     <div class="fototer__container container">
       <button class="contacts-btn btn-reset rus">Контакты</button>
       <button class="contacts-btn btn-reset eng display-none">Contacts</button>
-      <button class="footer__link rus btn-reset">ПОЖЕРТВОВАНИЯ</button>
-      <button class="footer__link eng display-none btn-reset">DONATION</button>
-      <div class="lang">
-        <button class="lang__btn lang__btn_rus btn-reset is-active">Ru</button> /
-        <button class="lang__btn lang__btn_eng btn-reset">Eng</button>
+      <button class="footer__link rus btn-reset">Пожертвования</button>
+      <button class="footer__link eng display-none btn-reset">Donation</button>
+      <div class="footer__down-section">
+        <button class="footer__video-btn btn-reset">
+          <img height="50px" src="img/video-btn.png" alt="orden">
+          <img height="55px" src="img/video-btn-2.png" alt="orden">
+          <img height="34px" src="img/video-btn-2.png" alt="orden">
+          <img height="40px" src="img/video-btn.png" alt="orden">
+          <img height="20px" src="img/video-btn-2.png" alt="orden">
+          <img height="25px" src="img/video-btn.png" alt="orden">
+          <img height="55px" src="img/video-btn.png" alt="orden">
+          <img height="20px" src="img/video-btn.png" alt="orden">
+          <img height="33px" src="img/video-btn-2.png" alt="orden">
+          <img height="45px" src="img/video-btn-2.png" alt="orden">
+          <img height="23px" src="img/video-btn.png" alt="orden">
+          <img height="76px" src="img/video-btn-2.png" alt="orden">
+          <img height="50px" src="img/video-btn.png" alt="orden">
+        </button>
+
+        <div class="lang">
+          <button class="lang__btn lang__btn_rus btn-reset is-active">Ru</button> /
+          <button class="lang__btn lang__btn_eng btn-reset">Eng</button>
+        </div>
       </div>
+
     </div>
 
   </footer>
@@ -267,10 +415,14 @@
     <div class="popup-tape__container container">
       <div class="popup-tape__content">
         <h3 class="popup-tape__title"></h3>
+        <p class="popup-tape__descr rus"></p>
+        <p class="popup-tape__descr eng display-none"></p>
         <div class="popup-tape__images">
           <img src="" alt="#" class="popup-tape__img popup-tape__img_1 albums__img">
           <img src="" alt="#" class="popup-tape__img popup-tape__img_2 albums__img">
         </div>
+        <p class="popup-tape__for-sale rus">Нет в наличии</p>
+        <p class="popup-tape__for-sale eng display-none">Sold out</p>
       </div>
     </div>
   </div>
@@ -280,20 +432,36 @@
     <div class="popup-donation__container container">
       <div class="popup-donation__content">
         <div class="popup-donation__coins">
+          <p class="popup-donation__item">BTC:</p>
+          <p class="popup-donation__value">bc1qtxeqmttrpvqvmv49475x8hnc4nxc4fak7vjaqm</p>
           <p class="popup-donation__item">USDT:</p>
           <p class="popup-donation__value">TVSt2jL1qxZmJJEpD6LoyJjCud8aWDzcbf</p>
           <p class="popup-donation__item">MONERO:</p>
           <p class="popup-donation__value">
             41oSFqptekjfFrUYycmBsZeX1eGjQ42ae3Rudh2HZcM4VwqcjSbGrHNJHZJWJqPA5h9VKi9opY82EUNSWX7DZ19iDrS4bQ2</p>
+          <p class="popup-donation__item">ETH:</p>
+          <p class="popup-donation__value">
+            0xD26C0B0f1d76B91987e163f65339dF09f0547F9d</p>
         </div>
         <div class="popup-donation__contacts">
           <a href="mailto:dasletztegoldverfallenersterne@gmail.com"
-          class="contacts__link">dasletztegoldverfallenersterne@gmail.com</a>
-          <a href="https://o-b-l.bandcamp.com/" target="_blank"
-          class="contacts__link">https://o-b-l.bandcamp.com</a>
+            class="contacts__link">dasletztegoldverfallenersterne@gmail.com</a>
+          <a href="https://o-b-l.bandcamp.com/" target="_blank" class="contacts__link">https://o-b-l.bandcamp.com</a>
         </div>
 
       </div>
+    </div>
+  </div>
+
+  <div class="popup-video">
+    <div class="popup-video__container container">
+
+      <iframe id="player" width="100%" height="100%" src="https://www.youtube.com/embed/E3YmuEBXxP8?rel=0"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+
     </div>
   </div>
 
