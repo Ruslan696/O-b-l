@@ -157,8 +157,22 @@ a {
 }
 
 .albums__box {
+  max-height: 0;
+
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+}
+
+.albums__box.active {
+  max-height: 100%;
   padding-bottom: 30px;
 }
+
+.albums__title {
+  cursor: pointer;
+}
+
+
 
 .albums__content {
   display: -webkit-box;
@@ -739,6 +753,10 @@ a {
 }
 
 @media (max-width: 690px) {
+  body {
+    /* background-image: url("../img/bg4_720.jpg"); */
+  }
+
   .albums__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

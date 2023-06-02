@@ -6,12 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel=" icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- <script defer src="https://unpkg.com/@popperjs/core@2"></script>
-  <script defer src="https://unpkg.com/tippy.js@6"></script> -->
-  <script defer src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script defer src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/style.css">
   <!-- Yandex.Metrika counter -->
   <script defer type="text/javascript">
     (function (m, e, t, r, i, k, a) {
@@ -33,13 +29,12 @@
     <div><img src="https://mc.yandex.ru/watch/90233746" style="position:absolute; left:-9999px;" alt="" /></div>
   </noscript>
   <!-- /Yandex.Metrika counter -->
-  <script defer src="js/script.js"></script>
+  <script defer src="dist/bundle.js"></script>
   <title>Орден Бледной Луны</title>
   <meta name="description" content="" />
 </head>
 
 <body class="body">
-
   <header class="header">
     <div class="header-container container">
       <button class="header__logo btn-reset">
@@ -60,7 +55,7 @@
         <div class="albums__box">
           <div class="albums__content">
             <div>
-              <img class="albums__img albums__img_obl1" src="img/obl1.jpg" alt="Under Pale Moon - S\T, Dec 2020">
+              <img class="albums__img albums__img_obl1 " id="img_1" alt="Under Pale Moon - S\T, Dec 2020" loading="lazy">
               <div class="albums__buttons">
                 <a href="download/Under Pale Moon - Under Pale Moon.zip" class="albums__download rus"
                   download="">Скачать альбом</a>
@@ -101,7 +96,7 @@
         <div class="albums__box">
           <div class="albums__content">
             <div>
-              <img class="albums__img albums__img_obl1" src="img/obl2.jpg" alt="Шип Сна - Шип сна, Jul 2021">
+              <img class="albums__img albums__img_obl1" id="img_2" alt="Шип Сна - Шип сна, Jul 2021">
               <div class="albums__buttons">
                 <a href="download/Шип Сна - Шип Сна.zip" class="albums__download rus" download="">Скачать альбом</a>
                 <a href="download/Шип Сна - Шип Сна.zip" class="albums__download eng display-none" download="">Download
@@ -142,7 +137,7 @@
         <div class="albums__box">
           <div class="albums__content">
             <div>
-              <img class="albums__img albums__img_obl1" src="img/obl3.jpg"
+              <img class="albums__img " id="img_3"
                 alt="Шип Сна - Ливни Темного Безумья, Февраль 2022">
               <div class="albums__buttons">
                 <a href="download/Шип Сна - Ливни Темного Безумья.zip" class="albums__download rus" download="">Скачать
@@ -185,7 +180,7 @@
         <div class="albums__box">
           <div class="albums__content">
             <div>
-              <img class="albums__img albums__img_obl1" src="img/obl4.jpg" alt="Под Бледной Луной - Сихирць">
+              <img class="albums__img " id="img_4" alt="Под Бледной Луной - Сихирць">
               <div class="albums__buttons">
                 <a href="download/Под Бледной Луной - Сихирць.zip" class="albums__download rus" download="">Скачать
                   альбом</a>
@@ -227,7 +222,7 @@
         <div class="albums__box">
           <div class="albums__content">
             <div>
-              <img class="albums__img albums__img_obl1" src="img/obl5.jpg"
+              <img class="albums__img albums__img_obl1" id="img_5"
                 alt="Old Took -About Dungeons, Poetry And Thunderstorms Over The Bay">
               <div class="albums__buttons">
                 <a href="download/Old Took - About Dungeons- Poetry And Thunderstorms Over The Bay.zip"
@@ -278,7 +273,7 @@
         <div class="albums__box">
           <div class="albums__content">
             <div>
-              <img class="albums__img albums__img_obl1" src="img/obl6.jpg" alt="Кровь Мифа - Таинство Птичьих Полётов">
+              <img class="albums__img " id="img_6" alt="Кровь Мифа - Таинство Птичьих Полётов">
               <div class="albums__buttons">
                 <a href="download/Кровь Мифа - Таинство Птичьих Полётов.rar" class="albums__download rus"
                   download="">Скачать альбом</a>
@@ -300,27 +295,15 @@
                   <span class="albums__track">Таинство Птичьих Полётов</span> 12:44
                 </li>
               </ul>
-
             </div>
           </div>
         </div>
-        <h3 class="albums__title">Das letzte gold verfallener sterne -
+        <h3 class="albums__title albums__title_youtube">Das letzte gold verfallener sterne -
           <span class="rus">заброшенный тоннель зеленого мыса</span>
           <span class="eng display-none">abandoned green cape tunnel</span>
         </h3>
         <div class="albums__box">
           <div class="albums__content albums__content_video">
-            <iframe class="video_tunnel" width="100%" height="315" src="https://www.youtube.com/embed/Ekiiv9KqMHU?rel=0"
-              title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen>
-            </iframe>
-            <p class="albums__descr rus">
-              небольшой концерт для летучих мышей и пещерных грибов
-            </p>
-            <p class="albums__descr eng display-none">
-              little concert for bats and cave mushrooms
-            </p>
           </div>
         </div>
         <h3 class="albums__title">Под бледной луной - Сны бобыля, <span class="rus">Май</span><span
@@ -328,7 +311,7 @@
         <div class="albums__box">
           <div class="albums__content">
             <div>
-              <img class="albums__img albums__img_obl1" src="img/obl7.jpg"
+              <img class="albums__img " id="img_7"
                 alt="Под бледной луной - Сны бобыля, Май 2023">
               <div class="albums__buttons">
                 <a href="download/Под Бледной Луной - Сны Бобыля.rar" class="albums__download rus" download="">Скачать
@@ -344,20 +327,23 @@
                 издательством «Подклет» г. Червоград.<br><br>
                 Под Бледной Луной - Сны Бобыля, Май 2023<br><br>
                 Изданно в мае 2023<br><br>
-                Audio cassettes available here: <a target="_blank" class="albums__link-inst" href="https://www.instagram.com/p/Cr_PoflNHIl/">https://www.instagram.com/p/Cr_PoflNHIl/</a>
+                Audio cassettes available here: <a target="_blank" class="albums__link-inst"
+                  href="https://www.instagram.com/p/Cr_PoflNHIl/">https://www.instagram.com/p/Cr_PoflNHIl/</a>
               </p>
               <p class="albums__descr eng display-none">
                 Collection of sketches made in different periods of life.
                 Designed and printed by Podklet from Chervograd.<br><br>
                 released May 2023<br><br>
-                Audio cassettes available here: <a target="_blank" class="albums__link-inst" href="https://www.instagram.com/p/Cr_PoflNHIl/">https://www.instagram.com/p/Cr_PoflNHIl/</a>
+                Audio cassettes available here: <a target="_blank" class="albums__link-inst"
+                  href="https://www.instagram.com/p/Cr_PoflNHIl/">https://www.instagram.com/p/Cr_PoflNHIl/</a>
               </p>
               <ul class="albums__list list-reset">
                 <li class="albums__item"><span class="albums__track">Театральный шум</span> 01:50</li>
                 <li class="albums__item"><span class="albums__track">За рекой</span> 02:42</li>
                 <li class="albums__item"><span class="albums__track">Сияющие горы</span> 05:51</li>
                 <li class="albums__item"><span class="albums__track">Языцы</span> 06:30</li>
-                <li class="albums__item"><span class="albums__track">Да воссияют звезды над нашей встречей</span> 03:55</li>
+                <li class="albums__item"><span class="albums__track">Да воссияют звезды над нашей встречей</span> 03:55
+                </li>
                 <li class="albums__item"><span class="albums__track">Осенний сон (А. Джойс)</span> 06:52</li>
               </ul>
 
@@ -455,13 +441,6 @@
 
   <div class="popup-video">
     <div class="popup-video__container container">
-
-      <iframe id="player" width="100%" height="100%" src="https://www.youtube.com/embed/E3YmuEBXxP8?rel=0"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-
     </div>
   </div>
 
